@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { View, Text } from 'react-native';
+import { styles } from '../styles/styles';
 
 export default function About() {
   return(
@@ -10,9 +11,3 @@ export default function About() {
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    padding: 24    
-  }
-});

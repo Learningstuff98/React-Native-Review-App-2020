@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { View, Text } from 'react-native';
+import { styles } from '../styles/styles';
 
 export default function Home() {
   return (
@@ -8,13 +9,3 @@ export default function Home() {
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    padding: 24,
-  },
-  titleText: {
-    fontFamily: 'nunito-bold',
-    fontSize: 18,
-  }
-});
