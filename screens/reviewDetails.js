@@ -5,13 +5,12 @@ import { styles } from '../styles/styles';
 export default function ReviewDetails({ navigation }) {
 
   const pressHandler = () => {
-    //navigation.goBack();
     navigation.navigate('home');
   }
 
-  return(
-    <View>
-      <Text style={styles.container}>
+  return (
+    <View style={styles.container}>
+      <Text style={styles.titleText}>
         ReviewDetails Screen
       </Text>
       <Button
